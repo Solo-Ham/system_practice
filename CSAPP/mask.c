@@ -5,7 +5,7 @@
 int main()
 {
 //solution for A
-    int mask = 0x00000000;
+    int mask = 0x000000FF;
 
     int x = 0x87654321;
 
@@ -15,7 +15,7 @@ int main()
 
 
 //SOLUTION FOR B
-    int mask2 = 0x000000FF;
+    int mask2 = ~0;
     int x2 = 0x789ABC21;
 
     printf("0x%08x", x2&mask2);
@@ -23,7 +23,7 @@ int main()
     printf("\n");
 
 //soltion for C
-    int mask3 = 0xFFFFFFFF;
+    int mask3 = ~0;
     int x3 = 0x876543FF;
 
     printf("0x%08x", x3&mask3);
