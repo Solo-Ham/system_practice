@@ -7,6 +7,9 @@ int main()
 //solution for A
     int mask = 0x000000FF;
 
+    //just trial
+    
+
     int x = 0x87654321;
 
     printf("0x%08x", x&mask);
