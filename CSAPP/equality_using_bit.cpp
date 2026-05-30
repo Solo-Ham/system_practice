@@ -13,7 +13,7 @@ int compare(int x, int y)
 //Method 2
 int compare2(int x, int y)
 {
-    return !(x^y);
+    return !(x^y);  // This is much elegant. x^y would give us zero for x==y so we introduced ! to make it 1
 }
 
 int main()
